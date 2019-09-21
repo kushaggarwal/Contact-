@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Form</title>
+    <link href="public/style.css" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+        <div class="page">    
+ 
+                <div class="header"> CONTACT FORM </div>
+                <b>
+            {{msg}}</b>
+                <form class="form" method="POST" action = "/send"> 
+                  <input name="name" type="text" class="name feedback-input" placeholder="Name"/>
+                  <input name="email" type="text" class="email feedback-input" placeholder="Email" />
+                  <textarea name="message" class="message feedback-input" placeholder="Message"></textarea>    
+                  <input class="submit-button" type="submit" value="SUBMIT">
+                </form>
+            
+              </div>
+            
+             
+            
+            
+</body>
+</html>
